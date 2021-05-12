@@ -10,17 +10,17 @@ class Person:
         self.age = age
 
 
-    def talk(self):
-        print ('Hi, my name is ' + self.name + self.surname + self.age)
+    def talk(self, person):
+        print ('Привіт, мене ' + self.name + self.surname + "мені" + self.age)
 
     
 
 
 
 person = Person(
-    "Jane",
-    "Doe",
-    "26 year"
+    "Віктор",
+    "Нікоряк",
+    "39 років"
 
 )
 print(talk)
