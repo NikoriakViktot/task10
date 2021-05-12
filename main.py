@@ -13,7 +13,7 @@ class Person:
     def talk(self):
         print ('Hi, my name is ' + self.name + self.surname + self.age)
 
-    Person.talk = talk
+    
 
 
 
@@ -23,7 +23,7 @@ person = Person(
     "26 year"
 
 )
-print( person.talk)
+print(talk)
 
 
 # Task2
