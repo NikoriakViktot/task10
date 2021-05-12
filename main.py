@@ -12,7 +12,7 @@ class Person:
 
 
     def talk(self):
-        print ('Привіт, мене звати  ' + self.name  + ' ' + self.surname + "  " + "мені" + " " + self.age)
+        print (f'Привіт, мене звати  {self.name}  {self.surname} мені  {self.age}')
    
 person = Person(
     "Віктор",
