@@ -19,7 +19,7 @@ class Person:
         self.age = age
 
 
-    #def tolk(self, person):
+    #def talk(self, person):
         print ('Привіт, мене звати  ' + self.name  + ' ' + self.surname + "  " + "мені" + " " + self.age)
      #   return()
     
